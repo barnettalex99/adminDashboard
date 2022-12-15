@@ -1,0 +1,24 @@
+.content{
+    font-family: 'Roboto', Arial, sans-serif;
+    display:grid; 
+    grid-template-columns: clamp(250px, 35%, 350px) 1fr;
+    grid-template-rows: 1fr;
+}
+.side-menu{
+    background-color:#0492D2 ;
+    color:white;
+    padding-left: 30px;
+}
+
+.dash-header-container{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+img{
+    margin-top: 21.44px;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
